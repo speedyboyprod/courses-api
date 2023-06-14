@@ -27,3 +27,7 @@ fetch(url)
       cellDetails.appendChild(anchor);
     });
   });
+
+document.getElementById("addCourse").addEventListener("click", () => {
+  location.href = "./new-courses.html";
+});
